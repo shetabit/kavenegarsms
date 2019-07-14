@@ -1,10 +1,5 @@
 # KavenegarSms
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
-
 Send SMS with kavenegar RESTFUL Api
 ## Installation
 
@@ -12,6 +7,11 @@ Via Composer
 
 ``` bash
 $ composer require shetabit/kavenegarsms
+```
+
+Publish config file
+``` bash
+php artisan vendor:publish
 ```
 
 ## Usage
