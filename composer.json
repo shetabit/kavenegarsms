@@ -1,0 +1,44 @@
+{
+    "name": "shetabit/kavenegarsms",
+    "description": ":description",
+    "license": "Shetabit",
+    "authors": [
+        {
+            "name": "Hashem Moghaddari",
+            "email": "hashemm364@gmail.com",
+            "homepage": "http://hamog.ir"
+        }
+    ],
+    "homepage": "https://github.com/shetabit/kavenegarsms",
+    "keywords": ["Laravel", "KavenegarSms"],
+    "require": {
+        "illuminate/support": "~5",
+        "kavenegar/php":"*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shetabit\\KavenegarSms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shetabit\\KavenegarSms\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shetabit\\KavenegarSms\\KavenegarSmsServiceProvider"
+            ],
+            "aliases": {
+                "KavenegarSms": "Shetabit\\KavenegarSms\\Facades\\KavenegarSms"
+            }
+        }
+    }
+}
