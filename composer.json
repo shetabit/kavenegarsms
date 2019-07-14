@@ -1,7 +1,7 @@
 {
     "name": "shetabit/kavenegarsms",
-    "description": ":description",
-    "license": "Shetabit",
+    "description": "Send SMS with Kavenegar RESTFUL Api",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hashem Moghaddari",
@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/shetabit/kavenegarsms",
-    "keywords": ["Laravel", "KavenegarSms"],
+    "keywords": ["Laravel", "KavenegarSms", "Shetabit", "SMS", "sms-api"],
     "require": {
         "illuminate/support": "~5",
         "kavenegar/php":"*"
