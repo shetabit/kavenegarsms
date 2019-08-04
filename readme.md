@@ -20,7 +20,7 @@ Send custom message:
  $mobile = '0911*******';
  $message = 'test message';
  
- $sms = new KavengarSms;
+ $sms = new KavenegarSms;
  $result = $sms->send($mobile, $message);
  if($result['success']) {
     //Send successfully
@@ -37,7 +37,7 @@ Send lookup message:
  $token3 = '';
  $template = 'verify';
  
- $sms = new KavengarSms;
+ $sms = new KavenegarSms;
  $result = $sms->lookup($mobile, $token1, $token2, $token3, $template);
  if($result['success']) {
     //Send successfully
